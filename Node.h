@@ -78,10 +78,10 @@ enum timerControl
 enum timerDivider
     {Div1, Div2, Div4, Div8} timerDivider;
 enum timerInterrupt
-    {NONIE, IE} timerInterrupt;
+    {NOIE, IE} timerInterrupt;
 
 // Function
-extern void Initialize_Timer        (char, char, char, unsgined, char);
+extern void Initialize_Timer        (char, char, char, unsigned, char);
 extern void Stop_Timer              (char);
 
 /** Useful Function **/
