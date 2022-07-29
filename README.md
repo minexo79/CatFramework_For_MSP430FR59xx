@@ -8,11 +8,11 @@ CatFramework - 讓430能更簡單開發
 ![](https://img.shields.io/github/forks/minexo79/CatFramework_For_MSP430FR59xx?style=social)
 ![](https://img.shields.io/github/stars/minexo79/CatFramework_For_MSP430FR59xx?style=social)
 
-> 因小弟現實生活關係，導致維護時間有限，後續會將此文檔及框架慢慢完善。
+> 因現實關係，目前維護時間有限，後續會將此文檔及框架慢慢完善。
 
 # 前言
 哈囉，當你看到這份文件，這是我原本要讓自己能更容易開發MSP430，將幾個常用的變數及功能整合起來，變成一個讓自己更方便開發的個人函式庫。<br>
-但幾年大學生活下來，發現到光有函式庫是不夠的，原因在於：功能不會只有一種，而是會根據需求做變化。<br>
+但幾年大學的研究下來，發現到光有函式庫是不夠的，原因在於：功能不會只有一種，而是會根據需求做變化。<br>
 於是某天決定開始動手並整理此函式庫，並用我在網路社群活躍的暱稱，取名叫「黑貓框架（CatFramework）」。<br>
 
 # 介紹
