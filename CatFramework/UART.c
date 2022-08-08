@@ -159,3 +159,27 @@ void Uart_WriteStr (uartParam * ptr, char * str, char length)
         }
     }
 }
+
+void Uart_WriteStrln (uartParam * ptr, char * str, char length)
+{
+    if(ptr->interruptMode == NONIE)
+    {
+        char _len = 0;
+        // String was sent?
+        while(_len < length)
+        {
+            // wait previous buffer was sent.
+            while((*uartInterFlagReg[ptr->unit] & UCTXIFG) != UCTXIFG);
+            // send buffer and go to next word.
+            *uartWriteReg[ptr->unit] = str[_len++];
+        }
+
+        // CR
+        while((*uartInterFlagReg[ptr->unit] & UCTXIFG) != UCTXIFG);
+        *uartWriteReg[ptr->unit] = 0x0D;
+
+        // LF
+        while((*uartInterFlagReg[ptr->unit] & UCTXIFG) != UCTXIFG);
+        *uartWriteReg[ptr->unit] = 0x0A;
+    }
+}

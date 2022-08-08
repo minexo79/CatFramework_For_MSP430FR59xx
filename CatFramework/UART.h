@@ -43,6 +43,7 @@ extern void Uart_ParamInit  (uartParam *);
 extern void Uart_Init       (uartParam *);
 
 extern void Uart_Write      (uartParam *, char);
-extern void Uart_WriteStr  (uartParam *, char *, char);
+extern void Uart_WriteStr   (uartParam *, char *, char);
+extern void Uart_WriteStrln (uartParam *, char *, char);
 
 #endif
