@@ -32,15 +32,24 @@ UCA0CTLW0 &= ~(UCSWRST);                   // Initialize UART State Machine
 
 UCA0IE |= UCRXIE;                          // Rx Interrupt
 ```
-但如果改用此框架，只需輸入一行即可完成設定UART單元。
+但如果改用此框架，只需輸入幾行即可完成設定UART單元。
 ```c
-Initialize_UART(UART0, 9600, NONIE);       // Configure UART0, 9600 bps, disable TX/RX Interrupt
+uartParam uart;
+
+// Configure UART
+Uart_ParamInit(&uart);
+
+uart.unit = UART0;                          // Select Unit To UCA0
+uart.baud = 9600;                           // Setting Baudrate To 9600 bps
+uart.interruptMode = NONIE;                 // Setting No UART Interrupt
+
+Uart_Init(&uart);
 ```
 
 # 支援的單元
 - [x] SystemClock
-- [x] GPIO（僅有Initialize Pin功能）
-- [x] Timer（僅支援TimerAx單元）
+- [x] GPIO
+- [ ] Timer（僅支援TimerAx單元）
 - [ ] ADC
 - [x] UART
 - [ ] I2C
