@@ -1,5 +1,5 @@
-#ifndef _IO_H_
-#define _IO_H_
+#ifndef _GPIO_H_
+#define _GPIO_H_
 
 #include "../CatFramework.h"
 

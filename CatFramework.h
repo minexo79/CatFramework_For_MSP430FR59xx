@@ -6,8 +6,8 @@
  *      Author: Tsai XO
  */
 
-#ifndef CATFRAMEWORK_H_
-#define CATFRAMEWORK_H_
+#ifndef _CATFRAMEWORK_H_
+#define _CATFRAMEWORK_H_
 
 // SFR Data Type
 #define _Reg8           volatile unsigned char
@@ -27,18 +27,21 @@
 #include <msp430.h>
 
 // GPIO
-#include <CatFramework/GPIO.h>
+#include "CatFramework/GPIO.h"
 
 // System Clock
-#include <CatFramework/SystemClock.h>
+#include "CatFramework/SystemClock.h"
 
 // UART
-#include <CatFramework/UART.h>
+#include "CatFramework/UART.h"
 
 // Timer
-#include <CatFramework/Timer.h>
+#include "CatFramework/Timer.h"
+
+// WatchDog
+#include "CatFramework/WatchDog.h"
 
 // Useful Function
-#include <CatFramework/Useful.h>
+#include "CatFramework/Useful.h"
 
 #endif /* CATFRAMEWORK_H_ */
