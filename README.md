@@ -1,5 +1,6 @@
-# CatFramework_For_MSP430FR59xx
-CatFramework - 讓430能更簡單開發
+![](Image/header.png)
+---
+<center>
 
 ![](https://img.shields.io/github/last-commit/minexo79/CatFramework_For_MSP430FR59xx)
 ![](https://img.shields.io/github/languages/code-size/minexo79/CatFramework_For_MSP430FR59xx?color=yellow&style=flat-square)
@@ -7,6 +8,8 @@ CatFramework - 讓430能更簡單開發
 ![](https://img.shields.io/github/issues-pr/minexo79/CatFramework_For_MSP430FR59xx)
 ![](https://img.shields.io/github/forks/minexo79/CatFramework_For_MSP430FR59xx?style=social)
 ![](https://img.shields.io/github/stars/minexo79/CatFramework_For_MSP430FR59xx?style=social)
+
+</center>
 
 > 因現實關係，目前維護時間有限，後續會將此文檔及框架慢慢完善。
 
@@ -47,6 +50,7 @@ Uart_Init(&uart);
 ```
 
 # 支援的單元
+- [x] WatchDog
 - [x] SystemClock
 - [x] GPIO
 - [ ] Timer（僅支援TimerAx單元）
