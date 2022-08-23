@@ -1,15 +1,14 @@
-![](Image/header.png)
+![](Image/banner.png)
+
 ---
-<center>
-
-![](https://img.shields.io/github/last-commit/minexo79/CatFramework_For_MSP430FR59xx)
-![](https://img.shields.io/github/languages/code-size/minexo79/CatFramework_For_MSP430FR59xx?color=yellow&style=flat-square)
-![](https://img.shields.io/github/issues/minexo79/CatFramework_For_MSP430FR59xx)
-![](https://img.shields.io/github/issues-pr/minexo79/CatFramework_For_MSP430FR59xx)
-![](https://img.shields.io/github/forks/minexo79/CatFramework_For_MSP430FR59xx?style=social)
-![](https://img.shields.io/github/stars/minexo79/CatFramework_For_MSP430FR59xx?style=social)
-
-</center>
+<p align="center">
+    <img src="https://img.shields.io/github/last-commit/minexo79/CatFramework_For_MSP430FR59xx" />
+    <img src="https://img.shields.io/github/languages/code-size/minexo79/CatFramework_For_MSP430FR59xx?color=yellow&style=flat-square" />
+    <img src="https://img.shields.io/github/issues/minexo79/CatFramework_For_MSP430FR59xx" />
+    <img src="https://img.shields.io/github/issues-pr/minexo79/CatFramework_For_MSP430FR59xx" />
+    <img src="https://img.shields.io/github/forks/minexo79/CatFramework_For_MSP430FR59xx?style=social" />
+    <img src="https://img.shields.io/github/stars/minexo79/CatFramework_For_MSP430FR59xx?style=social" />
+</p>
 
 > 因現實關係，目前維護時間有限，後續會將此文檔及框架慢慢完善。
 
